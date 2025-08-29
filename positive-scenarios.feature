@@ -1,6 +1,6 @@
 # ================================
 # Positive:
-# This scenario demonstrates how is the part of create a new delivery
+# This scenario demonstrates how is the part of create a new delivery.
 # ================================
 
 Feature: Create delivery
@@ -23,20 +23,20 @@ Scenario: Create a new delivery using the "Request a driver" option without sele
         | Vehicle type        | Medium                                  |
         | Add job description | Please be careful with fragile products |
 	And I click the "Request a driver" button
-    Then I am on the Delivery details page
-    And the message "Great! Your delivery was created!" is displayed
+    Then I should be on the Delivery details page
+    And the message "Great! Your delivery was created!" should be displayed
     And I click the "Add stop" button
     And I search for the location "Paul Mitchell The School Fresno" 
     And I add a delivery stop following the details:
         | Field        | Value        |
         | Phone Number | 555-555-5555 |
     And I click the "Add stop" button
-	Then the message "Brilliant! The new stop has been successfully added to your delivery route" is displayed
+	Then the message "Brilliant! The new stop has been successfully added to your delivery route" should be displayed
     And the delivery stop "1 - Paul Mitchell The School Fresno" should appear in the route details list
     And the delivery price "$148.58" is filled
-    And the route is being tracked in the map section
+    And the route should being tracked in the map section
 
 # ================================
 # Improvement:
-# The "Delivery details" and "My deliveries" pages need improvement because there is no explicit button to cancel a delivery
+# The "Delivery details" and "My deliveries" pages need improvement because there is no explicit button to cancel a delivery.
 # ================================
