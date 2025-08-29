@@ -8,7 +8,7 @@
 # main.adf324cf.js:2 [2025-08-29T21:49:15.668Z]  @firebase/firestore: Firestore (10.14.1): Uncaught Error in snapshot listener: FirebaseError: [code=permission-denied]: Missing or insufficient permissions.
 
 # main.adf324cf.js:2 
-#  POST https://delivery-api-test.metrobi.com/anon/estimate?recaptchatoken=<TOKEN> 500 (Internal Server Error)
+#  POST https://<LINK>/anon/estimate?recaptchatoken=<TOKEN> 500 (Internal Server Error)
 # 18
 # [Report Only] Refused to load the font '<URL>' because it violates the following Content Security Policy directive: "default-src 'self'". 
 #Note that 'font-src' was not explicitly set, so 'default-src' is used as a fallback.
