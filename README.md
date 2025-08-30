@@ -3,8 +3,8 @@
 # Metrobi Test Scenarios
 
 This repository contains exploratory manual test scenarios for the Metrobi delivery management system as part of the QA hiring process.\
-The scenarios are written in Gherkin syntax and focus on testing a part of customer management and delivery functionalities.\
-Bugs in this project are explored based on a basic understanding of acceptance criteria and business rules.
+The scenarios are written in Gherkin syntax and focus on testing parts of customer management and delivery functionalities based on a basic understanding of acceptance criteria and business rules.
+
 
 ## Project Structure
 
