@@ -14,6 +14,8 @@ Background:
 
 Scenario: Create a new delivery using the "Request a driver" option without selecting a driver
 	When I create a new delivery with "Request a driver" option
+    And I fill "WILLIAM CECCHETTI" in the Pickup location
+    And I click the "Add pickup stop" button
     And I enter the following delivery details:
         | Field               | Value                                   |
         | Pickup location     | WILLIAM CECCHETTI                       |

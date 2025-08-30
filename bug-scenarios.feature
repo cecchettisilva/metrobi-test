@@ -15,7 +15,7 @@
 
 # ================================
 
-Feature: Create delivery - Copy quote link
+Feature: Create delivery management
     As a Metrobi user
     I want to create a new delivery
     So I can manage deliveries
@@ -24,7 +24,7 @@ Background:
  	Given I am logged in as an authorized user
     And I am on the Metrobi dashboard
 
-Scenario: Access the "Copy quote link" while creating a new delivery
+Scenario: Access the "Copy quote link" on the delivery
 	When I access the "My Deliveries" page 
     And I access a delivery in progress 
     Then I should be on the "Delivery details" page
@@ -40,15 +40,6 @@ Scenario: Access the "Copy quote link" while creating a new delivery
 # When an emergency contact is added to a delivery, the system accepts the action but the contact is not displayed on the "Delivery details" page.
 # The expected behavior is that the added emergency contact should be displayed somewhere on the delivery details page.
 # ================================
-
-Feature: Create delivery - Add emergency contact 
-    As a Metrobi user
-    I want to create a new delivery
-    So I can manage deliveries
-
-Background:
- 	Given I am logged in as an authorized user
-    And I am on the Metrobi dashboard
 
 Scenario: Add an emergency contact to the delivery
 	When I access the "My Deliveries" page 
