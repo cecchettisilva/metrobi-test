@@ -38,7 +38,7 @@ Bugs in this project are explored based on a basic understanding of acceptance c
 ## Video
 
 - Watch the video below for a detailed explanation of this project.
-  - <a href="https://drive.google.com/file/d/1FD1VR1Wb6Fhbp1Wfkq1yVb9dLch5fGmH/view?usp=sharing" target="_blank">Watch video here</a>
+  - [Watch video here](https://drive.google.com/file/d/1FD1VR1Wb6Fhbp1Wfkq1yVb9dLch5fGmH/view?usp=sharing")
 
 ## Contact
 
